@@ -1,0 +1,82 @@
+body{
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+
+
+.table{
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nagy_table{
+	width: 50%;
+}
+
+.kis_table{
+	width: 100%;
+}
+
+.dropdown-menu{
+	background-color: #343a40;
+}
+
+.dropdown-item{
+	color: gray;
+}
+
+.dropdown-item:hover{
+	background-color: #343a40;
+	color: #CCCECF;
+}
+
+.row{
+	margin-top: 10px;
+}
+
+.col, .kep_col, .align-self-center{
+	background-color: #D6D8DB;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.kep{
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.kis_tartalom{
+	display: none;
+}
+
+.big_jesus{
+	width: 50%
+}
+
+@media(max-width: 1600px) {
+	.kep{
+		display: none;
+	}
+	
+	.kep_col{
+		display: none;
+	}
+}
+
+@media(max-width: 1000px) {
+	.nagy_tartalom{
+		display: none;
+	}
+	
+	.kis_tartalom{
+		display: block;
+	}
+	
+	.text{
+		font-size: 30px;
+	}
+}
